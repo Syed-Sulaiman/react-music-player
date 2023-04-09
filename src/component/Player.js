@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"; 
 import useSound from "use-sound"; 
-import qala from "../assets/Eye Of The Tiger.mp3"; // importing the music
+import "Eye of The Tiger.mp3" from "../assets/Eye Of The Tiger.mp3"; // importing the music
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai"; // icons for play and pause
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi"; // icons for next and previous track
 import { IconContext } from "react-icons";
